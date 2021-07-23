@@ -8,7 +8,7 @@
 
 ### 二、设置账号密码
 
-添加名为  **SCKEY**、**USER**、**PWD**、**STEP** 的变量，值分别为 **server酱推送key（0关闭）**、 **账号（仅支持手机号）**、**密码**、**步数（0则为1w-2w之间随机 或自定义随机范围[18000-25000]）**
+添加名为  **SCKEY**、**USER**、**PWD**、**STEP** 的变量，值分别为 **server酱推送key（0关闭）**、 **账号（仅支持手机号）**、**密码**、**步数（0则为1w-2w之间随机 或自定义随机范围[18000,25000]）**
 
 > Settings-->Secrets-->New secret
 
@@ -31,6 +31,8 @@
 修改其中的10为你要的时间
 
 需要运行的时间-8就是UTC时间
+## 启动
+> Actions-->点击“I understand my workflows, go ahead and enable them”-->All workflows-->刷步数-->点击“Enable workflow”
 
 ## 注意事项
 
